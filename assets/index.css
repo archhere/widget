@@ -1,0 +1,70 @@
+.full-clock{
+  border: 5px solid black;
+  background-color: black;
+  display: inline-block;
+  width: 500px;
+}
+
+.full-clock h1{
+  font-family: cursive;
+  text-align: center;
+  position: relative;
+  font-size:40px;
+  color: white;
+  left:-4%;
+}
+
+
+
+.clock p{
+  position:relative;
+  font-family:sans-serif;
+  font-weight: bold;
+  margin :10px;
+  margin-left: 85px;
+  padding: 5px;
+  color: white;
+
+}
+
+p span{
+  font-family: cursive;
+  text-align: left;
+  position:relative;
+  right: -40%
+}
+
+
+.my-tabs{
+  margin-top: 40px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 5px solid black;
+  background-color: black;
+  width: 480px;
+  display: flex;
+  justify-content:space-between;
+  color:white;
+}
+
+.my-tabs h3{
+  font-size: 15px;
+  font-family:serif;
+  font-weight: 400;
+  color: white;
+}
+
+.selected h3{
+  font-weight: bold;
+
+}
+
+.weather{
+  margin-top: 20px;
+  border: 5px solid black;
+  background-color: black;
+  width: 500px;
+  font-family: cursive;
+  color:white;
+}
